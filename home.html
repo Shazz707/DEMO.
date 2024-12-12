@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <strong>SZ</strong> Shahzeb Zaman </a>
+            </div>
+
+            <ul class="navbar-links">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="container">
+            <div class="box">
+                <h4 class="">Hello there !</h4>
+                <h1 class="">I'm Shahzeb</h1>
+                <p class="">
+                    I am passionate photographer based in Karachi.
+                </p>
+                <a href="#" class="btn">My works</a>
+                <a href="#" class="btn">Contact me</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- About section -->
+    <section class="about bg-light" id="about">
+        <div class="container">
+
+            <div class="box">
+                <h2 class="title">
+                    Shahzeb, a passionate photographer based in Karachi
+                </h2>
+                <p>
+                    I love to pause the wild, happy and real moments of life, just to hear their stories untold.
+                
+                </p>
+                <ul>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Over 4 years of experience</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Exceptional work quality</span>
+                    </li>
+                </ul>
+
+                <div class="about-bottom">
+                    <div class="about-name-wrapper">
+                        <div class="about-name-dark"></div>
+                        <div class="about-rol"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-img">
+                <div class="img">
+                    <img src="./images/pexels-alexis-caso-2944191.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- About section -->
+
+
+    <!-- Services section -->
+    <section class="services bg-dark" id="services">
+        <div class="heading">
+            <h2 class="section-title"><span>My Services</span></h2>
+            <p class="section-title2">Photography/Videography/Color-Grading.</p>
+        </div>
+    
+        <div class="container">
+    
+           <!-- Photography Slider -->
+<div class="box border-01">
+    <div class="item">
+        <img src="./images/icons/icon-1.svg" alt="Icon">
+        <a href="services-page.html">
+            <h6>Photography</h6>
+            <p>Freezing Moments.</p>
+        </a>
+        <div class="slider-container">
+            <div class="slider" id="photography-slider">
+                <div class="slides">
+                    <img src="desert 1.jpg" alt="Photo 1" style="width:500px;height:350px;">
+                    <img src="mount 1.jpg" alt="Photo 2" style="width:500px;height:350px;">
+                    <img src="mount 2.jpg" alt="Photo 3" style="width:500px;height:350px;">
+                    <img src="mount 2.jpg" alt="Photo 4" style="width:500px;height:350px;">
+                    <img src="shahzeb.jpg" alt="Photo 5" style="width:500px;height:350px;">
+                    <img src="shahzeb.jpg" alt="Photo 6" style="width:500px;height:350px;">
+                    <img src="shahzeb.jpg" alt="Photo 7" style="width:500px;height:350px;">
+                    <img src="shahzeb.jpg" alt="Photo 8" style="width:500px;height:350px;">
+                    <img src="shahzeb.jpg" alt="Photo 9" style="width:500px;height:350px;">
+                    <img src="shahzeb.jpg" alt="Photo 10" style="width:500px;height:350px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="prev-button">❮</button>
+    <button class="next-button">❯</button>
+</div>
+
+<!-- Videography Slider -->
+<div class="box border-02">
+    <div class="item">
+        <img src="./images/icons/icon-2.svg" alt="">
+        <a href="services-page.html">
+            <h6>Videography</h6>
+            <p>Shooting Events.</p>
+        </a>
+        <div class="video-slider">
+            <div class="slides">
+                <video src="uni.mov" controls style="width:500px;height:350px;"></video>
+                <video src="Timeline 1.mov" controls style="width:500px;height:350px;"></video>
+                <video src="goat.mov" controls style="width:500px;height:350px;"></video>
+            </div>
+            <div class="buttons">
+                <span class="circle" data-index="0"></span>
+                <span class="circle" data-index="1"></span>
+                <span class="circle" data-index="2"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Color-Grading Slider with Hover Effect -->
+<div class="box border-03">
+    <div class="item">
+        <img src="./images/icons/icon-3.svg" alt="">
+        <a href="services-page.html">
+            <h6>Color-Grading</h6>
+            <p>Recreating Hollywood Colors</p>
+        </a>
+        <div class="unedited-edited-section">
+            <div class="image-container">
+                <!-- Image wrapper for unedited/edited hover effect -->
+                <div class="image-wrapper">
+                    <img src="shahzeb.jpg" alt="Unedited" class="unedited" style="width:500px;height:350px;">
+                    <img src="mount 2.jpg" alt="Edited" class="edited" style="width:500px;height:350px;">
+                </div>
+        </div>
+    </div>
+</div>
+
+                  
+    
+        </div>
+    </section>
+    
+    <!-- Services section -->
+
+
+
+    <!-- Works Gallery -->
+    <section class="gallery bg-dark" id="works">
+        <div class="heading">
+            <h2 class="title">My Works </h2>
+        </div>
+        <div class="container">
+            <div class="grid-wrapper">
+                <div class="image tall">
+                    <img src="shahzeb.jpg" alt="Shahzeb" />
+                </div>
+                <div class="image wide">
+                    <img src="nature.jpg" alt="Nature" />
+                </div>
+                <div class="image tall">
+                    <img src="landscape.jpg" alt="Landscape" />
+                </div>
+                <div class="image">
+                    <img src="car.jpg" alt="Car" />
+                </div>
+                <div class="image">
+                    <img src="wildlife.jpg" alt="Wildlife" />
+                </div>
+            </div>
+        </div>
+    
+        <!-- Lightbox Container -->
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-image" alt="Full View" />
+        </div>
+    </section>
+    
+    <!--  Works Gallery -->
+
+    <!-- Contact section -->
+    <section class="contact bg-light" id="contact">
+        <div class="container">
+
+            <div class="box">
+                <h2 class="title">
+                    Need help ? Let's work together!
+                </h2>
+                <ul>
+                    <li>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>+92 300-124222-4</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-at" aria-hidden="true"></i>
+                        <span>shahzebzmn7@gmail.com</span>
+
+                    </li>
+                    <li>
+                        <i class="fa fa-location-pin" aria-hidden="true"></i>
+                        <span>Szabist,Karachi</span>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="box">
+                <div class="box-r">
+                    <div class="form-box">
+                        <div class="form-title">
+                            <h2>Get in touch</h2>
+                        </div>
+                        <form action="" method="post">
+                            <div class="one-line">
+                                <div class="box-input">
+                                    <i class="far fa-user"></i>
+                                    <input type="text" name="" id="" class="text" placeholder="Full Name..">
+                                </div>
+                                <div class="box-input">
+                                    <i class="fa fa-phone"></i>
+                                    <input type="text" name="" id="" class="text" placeholder="your phone">
+                                </div>
+                            </div>
+
+                            <div class="box-input">
+                                <i class="fa fa-at"></i>
+                                <input type="email" name="" id="" class="text" placeholder="email..">
+                            </div>
+                            <div class="box-input">
+                                <label class="address"><i class="fa fa-location-pin"></i></label>
+                                <textarea name="" id="" cols="30" rows="5" placeholder="your address.."></textarea>
+                            </div>
+                            <button class="btn-send">Contact us</button>
+                        </form>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact section -->
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="newsletter">
+            <div class="container">
+               
+            </div>
+        </div>
+        <div class="second-footer">
+            <div class="container">
+                <div class="box">
+                    <div class="logo-wrapper">
+                        <a class="logo" href="index.html"> <strong>SZ</strong> Shahzeb Zaman </a>
+                    </div>
+                    <div class="text">
+                        <p>Capture Every Moment!</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 class="title">Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="works.html">Works</a></li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3 class="title">Contact</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <span>
+                                +92 300-124222-4
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa fa-at"></i>
+                            <span>
+                                shahzebzmn7@gmail.com
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Szabist,Karachi
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" copyright">
+            <div class="box">
+                <p class="">Copyright © 2024 by <a href="#">Shahzeb</a>. All rights reserved.</p>
+            </div>
+            <div class="box">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
